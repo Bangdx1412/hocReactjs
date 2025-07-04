@@ -11,9 +11,9 @@ function App() {
       <Header />
       <NavigationMenu />
       <div className="main">
-        <Content />
+        <Content text="Content1" so={10} active={true} />
         <MainContent />
-        <Content />
+        <Content text="Content2" so={20} active={false}/>
       </div>
       <Footer />
     </>

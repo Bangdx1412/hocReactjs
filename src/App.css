@@ -4,6 +4,9 @@
   font-size: 20px;
   padding: 30px;
 }
+.box--active{
+  background: yellow;
+}
 .main{
   display: flex;
   justify-content: space-between;
