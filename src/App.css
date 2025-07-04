@@ -17,3 +17,10 @@
   margin-right: 10px;
   text-align: center;
 }
+.acitve{
+    outline: none; /* ❌ Tắt outline (không nên trừ khi có style thay thế) */
+  border: 1px solid #ccc; /* viền thật (chiếm không gian) */
+}
+.thaymaune{
+outline: 2px solid blue; /* ✅ Tùy chỉnh viền khi focus */
+}
