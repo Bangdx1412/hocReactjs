@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
 function App() {
+  let name = "Đỗ Bằng";
+  const css = {
+    color: "white",
+    backgroundColor: "red",
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="test" style={{ color: "red" }}>
+        Xin chào {name}
+      </div>
+      <div className="test" style={css}>
+        Xin chào {name}
+      </div>
+    </>
   );
 }
 
