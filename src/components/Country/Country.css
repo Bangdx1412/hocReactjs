@@ -1,0 +1,46 @@
+.country {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+.country__item {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+.country__item:hover {
+  background-color: #f0f8ff;
+}
+
+.country__text {
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.country__sub {
+  list-style: none;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.country__sub-item {
+  padding: 4px 0;
+  color: #555;
+  transition: color 0.2s;
+}
+
+.country__sub-item:hover {
+  color: #007acc;
+  cursor: pointer;
+}

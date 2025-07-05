@@ -1,14 +1,16 @@
 import "./App.css";
+import Country from "./components/Country";
 // import Login from "./components/login";
 // import Menu from "./components/Menu";
-import ProductList from "./components/ProductList";
+// import ProductList from "./components/ProductList";
 
 function App() {
   return (
     <>
       {/* <Login/>
       <Menu/> */}
-      <ProductList/>
+      {/* <ProductList/> */}
+      <Country/>
     </>
   );
 }
