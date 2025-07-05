@@ -1,17 +1,16 @@
 function Login() {
-  const isLogin = true;
-  if (isLogin === true) {
-    return (
-      <>
-        <div>Thông tin người dùng, nút logout</div>
-      </>
-    );
-  } else {
-    return (
-      <>
-        <div>Nút đăng nhập, đăng ký</div>
-      </>
-    );
-  }
+  const isLogin = false;
+
+  return (
+    <>
+      {isLogin === true ? (
+        <><div>Thông tin người dùng, logout</div></>
+      ) : (
+        <> <div>Nút đăng ký, đăng nhập</div></>
+       
+      )}
+      {isLogin && <div>Avarta</div>}
+    </>
+  );
 }
 export default Login;
