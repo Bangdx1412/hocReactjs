@@ -1,5 +1,6 @@
 import "./App.css";
-import Cart from "./components/Cart";
+import Modal from "./components/Modal";
+// import Cart from "./components/Cart";
 // import Country from "./components/Country";
 // import Lamp from "./components/Lamp";
 // import Login from "./components/login";
@@ -14,7 +15,8 @@ function App() {
       {/* <ProductList/> */}
       {/* <Country/> */}
       {/* <Lamp/> */}
-      <Cart/>
+      {/* <Cart/> */}
+      <Modal/>
     </>
   );
 }
