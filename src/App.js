@@ -1,6 +1,7 @@
 import "./App.css";
+import Cart from "./components/Cart";
 // import Country from "./components/Country";
-import Lamp from "./components/Lamp";
+// import Lamp from "./components/Lamp";
 // import Login from "./components/login";
 // import Menu from "./components/Menu";
 // import ProductList from "./components/ProductList";
@@ -12,7 +13,8 @@ function App() {
       <Menu/> */}
       {/* <ProductList/> */}
       {/* <Country/> */}
-      <Lamp/>
+      {/* <Lamp/> */}
+      <Cart/>
     </>
   );
 }
